@@ -1,8 +1,8 @@
 import Popover from '@mui/material/Popover'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { FC, useState } from 'react'
-import { BsPerson } from 'react-icons/bs'
 import { FaInstagram } from 'react-icons/fa'
 import { FiHeart, FiSearch } from 'react-icons/fi'
 import { GoHomeFill } from 'react-icons/go'
@@ -23,7 +23,7 @@ const SideMenu: FC = () => {
   }
 
   return (
-    <aside className='flex h-full w-16 flex-col items-center overflow-y-auto border-r border-gray-light bg-white px-3 py-5'>
+    <aside className='fixed hidden h-full w-16 flex-col items-center overflow-y-auto border-r border-gray-light bg-white px-3 py-5 sm:flex'>
       <div className='mt-3 pb-6'>
         <Link href='/'>
           <FaInstagram size='1.5rem' />
@@ -57,7 +57,13 @@ const SideMenu: FC = () => {
         </div>
         <div className='my-2 py-3'>
           <Link href='/'>
-            <BsPerson size='1.5rem' />
+            <Image
+              src='https://picsum.photos/24/24'
+              width='24'
+              height='24'
+              alt='profile image'
+              className='rounded-full'
+            />
           </Link>
         </div>
       </div>
