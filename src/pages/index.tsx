@@ -1,9 +1,10 @@
+import Home from '@/components/home'
 import SideMenu from '@/components/side-menu'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
-export default function Home() {
+export default function HomePage() {
   const router = useRouter()
 
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function Home() {
         <link rel='icon' href='/instagram.png' />
       </Head>
       <SideMenu />
+      <Home />
     </main>
   )
 }
