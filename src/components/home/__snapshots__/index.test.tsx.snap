@@ -64,7 +64,9 @@ exports[`<Home/> should render the home page 1`] = `
               />
             </svg>
           </button>
-          <button>
+          <button
+            data-testid="comment-button"
+          >
             <svg
               fill="none"
               height="1.5rem"
@@ -230,7 +232,9 @@ exports[`<Home/> should render the home page 1`] = `
               />
             </svg>
           </button>
-          <button>
+          <button
+            data-testid="comment-button"
+          >
             <svg
               fill="none"
               height="1.5rem"
@@ -396,7 +400,9 @@ exports[`<Home/> should render the home page 1`] = `
               />
             </svg>
           </button>
-          <button>
+          <button
+            data-testid="comment-button"
+          >
             <svg
               fill="none"
               height="1.5rem"
@@ -562,7 +568,9 @@ exports[`<Home/> should render the home page 1`] = `
               />
             </svg>
           </button>
-          <button>
+          <button
+            data-testid="comment-button"
+          >
             <svg
               fill="none"
               height="1.5rem"
@@ -728,7 +736,9 @@ exports[`<Home/> should render the home page 1`] = `
               />
             </svg>
           </button>
-          <button>
+          <button
+            data-testid="comment-button"
+          >
             <svg
               fill="none"
               height="1.5rem"
@@ -894,7 +904,9 @@ exports[`<Home/> should render the home page 1`] = `
               />
             </svg>
           </button>
-          <button>
+          <button
+            data-testid="comment-button"
+          >
             <svg
               fill="none"
               height="1.5rem"
@@ -1060,7 +1072,9 @@ exports[`<Home/> should render the home page 1`] = `
               />
             </svg>
           </button>
-          <button>
+          <button
+            data-testid="comment-button"
+          >
             <svg
               fill="none"
               height="1.5rem"
