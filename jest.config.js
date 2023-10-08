@@ -10,6 +10,7 @@ const customJestConfig = {
   },
   collectCoverageFrom: ['<rootDir>/src/**/*.(ts|tsx)'],
   coveragePathIgnorePatterns: ['/node_modules/', '<rootDir>/src/assets'],
+  setupFiles: ['<rootDir>/jest.setup.js'],
   setupFilesAfterEnv: [
     '@testing-library/jest-dom',
     '@testing-library/react',
