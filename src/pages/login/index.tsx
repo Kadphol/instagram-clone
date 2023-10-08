@@ -1,10 +1,10 @@
 import InstagramIcon from '@/components/icons/instagram'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import { FormEvent, MouseEvent, useState } from 'react'
+import { FC, FormEvent, MouseEvent, useState } from 'react'
 import { validateEmail, validatePassword } from './utils'
 
-const LoginPage: React.FC = () => {
+const LoginPage: FC = () => {
   const [email, setEmail] = useState<string>('')
   const [password, setPassword] = useState<string>('')
   const [emailFormErrors, setEmailFormErrors] = useState('')
