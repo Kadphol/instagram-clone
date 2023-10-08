@@ -36,12 +36,13 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo or extract the zip file
 
-  SSH
    ```sh
+   SSH
    git clone git@github.com:Kadphol/instagram-clone.git
    ```
-  HTTPS
+
   ```sh
+  HTTPS
   git clone https://github.com/Kadphol/instagram-clone.git
   ```
 
@@ -78,6 +79,22 @@ This is an example of how to list things you need to use the software and how to
 - Can comment post
 - Can see comment list
 - Can logout to go back to [login page](http://localhost:3000/login) by click on the menu and click `Log out`
+
+### Unit test
+
+- Run unit test by using this command
+
+  ```sh
+  yarn test
+  ```
+
+- Run unit test with coverage by using this command
+
+  ```sh
+  yarn test:cov
+  ```
+
+  and see the coverage report in `/coverage/lcov-report/index.html` on root directory of project after run this command
 
 ## Roadmap
 
