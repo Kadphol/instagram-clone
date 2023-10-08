@@ -42,16 +42,17 @@ const LoginPage: React.FC = () => {
     <div>
       <Head>
         <title>Instagram Login</title>
+        <link rel='icon' href='/instagram.png' />
       </Head>
-      <div className='md:bg-white-light flex min-h-[100vh] w-full items-center justify-center'>
-        <div className='md:border-gray-light flex max-w-[350px] flex-grow flex-col items-center justify-center bg-white md:border'>
+      <div className='flex min-h-[100vh] w-full items-center justify-center md:bg-white-light'>
+        <div className='flex max-w-[350px] flex-grow flex-col items-center justify-center bg-white md:border md:border-gray-light'>
           <div className='my-10 h-auto w-[175px]'>
             <InstagramIcon />
           </div>
 
           <form onSubmit={handleLogin} className='flex flex-col'>
             <input
-              className=' bg-white-light border-gray-light w-full border px-2 py-[7px] text-sm focus:outline-none'
+              className=' w-full border border-gray-light bg-white-light px-2 py-[7px] text-sm focus:outline-none'
               type='email'
               id='signInPageEmail'
               value={email}
@@ -62,11 +63,11 @@ const LoginPage: React.FC = () => {
               placeholder='Email address'
               required
             />
-            <p className='text-red h-[20px] max-w-[220px] text-xs'>
+            <p className='h-[20px] max-w-[220px] text-xs text-red'>
               {emailFormErrors}
             </p>
             <input
-              className='bg-white-light border-gray-light w-full border px-2 py-[7px] text-sm focus:outline-none'
+              className='w-full border border-gray-light bg-white-light px-2 py-[7px] text-sm focus:outline-none'
               type='password'
               id='signInPagePassword'
               value={password}
@@ -77,26 +78,26 @@ const LoginPage: React.FC = () => {
               placeholder='Password'
               required
             />
-            <p className='text-red h-[20px] max-w-[220px] text-xs'>
+            <p className='h-[20px] max-w-[220px] text-xs text-red'>
               {passwordFormErrors}
             </p>
             <button
               className={`${
                 isLoginButtonDisabled
                   ? 'bg-blue'
-                  : 'bg-blue-light pointer-events-none cursor-default'
+                  : 'pointer-events-none cursor-default bg-blue-light'
               } my-5 w-full rounded px-2 py-1 text-sm font-semibold text-white`}
               type='submit'
             >
               Log In
             </button>
             <div className='mb-5 flex h-0 items-center justify-center'>
-              <div className='border-gray-light w-full border-b border-stone-300' />
-              <p className='text-gray mx-2 text-sm font-semibold'>OR</p>
-              <div className='border-gray-light w-full border-b border-stone-300' />
+              <div className='border-stone-300 w-full border-b border-gray-light' />
+              <p className='mx-2 text-sm font-semibold text-gray'>OR</p>
+              <div className='border-stone-300 w-full border-b border-gray-light' />
             </div>
             <button
-              className='bg-blue mb-10 w-full rounded px-2 py-1 text-sm font-semibold text-white'
+              className='mb-10 w-full rounded bg-blue px-2 py-1 text-sm font-semibold text-white'
               onClick={handleGuestLogin}
             >
               Guest Login
