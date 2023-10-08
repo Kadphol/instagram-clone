@@ -67,7 +67,7 @@ const SideMenu: FC = () => {
           </Link>
         </div>
       </div>
-      <div className='ml-auto flex sm:mt-auto'>
+      <div className='ml-auto flex sm:ml-0 sm:mt-auto'>
         <div
           className='mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3'
           onClick={(event) => {

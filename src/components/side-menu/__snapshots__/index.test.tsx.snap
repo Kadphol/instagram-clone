@@ -209,7 +209,7 @@ exports[`<SideMenu /> renders the menu items 1`] = `
       </div>
     </div>
     <div
-      class="ml-auto flex sm:mt-auto"
+      class="ml-auto flex sm:ml-0 sm:mt-auto"
     >
       <div
         class="mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3"
