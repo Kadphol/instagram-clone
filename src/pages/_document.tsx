@@ -5,7 +5,6 @@ export default function Document() {
     <Html lang='en'>
       <Head>
         <meta name='description' content='Instagram Clone' />
-        <link rel='icon' href='/instagram.png' />
       </Head>
       <body>
         <Main />

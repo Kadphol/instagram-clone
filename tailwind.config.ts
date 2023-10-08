@@ -15,6 +15,10 @@ const config: Config = {
       },
     },
     colors: {
+      black: {
+        DEFAULT: '#000',
+        light: '#262626',
+      },
       white: {
         DEFAULT: '#fff',
         light: '#fafafa',
