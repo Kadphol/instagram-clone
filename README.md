@@ -1,5 +1,7 @@
 ## Instagram clone
 
+![Screenshot 2566-10-08 at 20 41 41](https://github.com/Kadphol/instagram-clone/assets/46192417/1dcbbfe2-5880-4d80-9a52-2d4d9cec8ab4)
+
 This is Instagram clone project using Next.js, React, Material-UI, Tailwind CSS and React-icons. Come with responsive design and following features:
 
 - login page (without any authentication/guest login)
@@ -34,9 +36,14 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo or extract the zip file
 
+  SSH
    ```sh
-   git clone https://github.com/Kadphol/repo_name.git
+   git clone git@github.com:Kadphol/instagram-clone.git
    ```
+  HTTPS
+  ```sh
+  git clone https://github.com/Kadphol/instagram-clone.git
+  ```
 
 2. Install packages
 
@@ -56,24 +63,28 @@ This is an example of how to list things you need to use the software and how to
 
 ### Login page
 
+![Screenshot 2566-10-08 at 20 41 56](https://github.com/Kadphol/instagram-clone/assets/46192417/485d4d49-5a70-4ba5-a113-2de181138339)
+
 - Enter home page without any login/authentication will direct to [login page](http://localhost:3000/login)
 - Can login with any valid email (email format) and valid password (one uppercase, one lowercase, one number and at least 8 characters) or using guest login
 - After login, will redirect to [home page](http://localhost:3000)
 
 ### Home page
 
+![Screenshot 2566-10-08 at 20 41 32](https://github.com/Kadphol/instagram-clone/assets/46192417/1a26396f-dc63-4cbc-812a-667967692251)
+
 - Can see feed list
 - Can like/unlike post
 - Can comment post
 - Can see comment list
-- Can logout to go back to [login page](http://localhost:3000/login)
+- Can logout to go back to [login page](http://localhost:3000/login) by click on the menu and click `Log out`
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-- [ ] Nested Feature
+- [ ] Refactor post component extract to smaller one.
+- [ ] Add modal for comments when click view all comments instead of display it all.
+- [ ] Add mock story feed.
+- [ ] Manage data to state management.
 
 [Next-url]: https://nextjs.org/
 [React-url]: https://reactjs.org/
