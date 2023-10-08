@@ -23,39 +23,39 @@ const SideMenu: FC = () => {
   }
 
   return (
-    <aside className='fixed hidden h-full w-16 flex-col items-center overflow-y-auto border-r border-gray-light bg-white px-3 py-5 sm:flex'>
-      <div className='mt-3 pb-6'>
+    <aside className='fixed flex w-full flex-row items-center overflow-y-auto border-b border-gray-light bg-white px-3 py-5 sm:h-full sm:w-16 sm:flex-col sm:border-r'>
+      <div className='ml-3 pr-6 sm:ml-0 sm:mt-3 sm:pb-6 sm:pr-0'>
         <Link href='/'>
           <FaInstagram size='1.5rem' />
         </Link>
       </div>
-      <div className='my-2 flex flex-col py-3'>
-        <div className='my-2 py-3'>
+      <div className='mx-2 flex flex-row px-3 max-[425px]:hidden sm:mx-0 sm:my-2 sm:flex-col sm:px-3 sm:py-3'>
+        <div className='mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3'>
           <Link href='/'>
             <GoHomeFill size='1.5rem' />
           </Link>
         </div>
-        <div className='my-2 py-3'>
+        <div className='mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3'>
           <Link href='/'>
             <FiSearch size='1.5rem' />
           </Link>
         </div>
-        <div className='my-2 py-3'>
+        <div className='mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3'>
           <Link href='/'>
             <ReelsIcon />
           </Link>
         </div>
-        <div className='my-2 py-3'>
+        <div className='mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3'>
           <Link href='/'>
             <RiMessengerLine size='1.5rem' />
           </Link>
         </div>
-        <div className='my-2 py-3'>
+        <div className='mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3'>
           <Link href='/'>
             <FiHeart size='1.5rem' />
           </Link>
         </div>
-        <div className='my-2 py-3'>
+        <div className='mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3'>
           <Link href='/'>
             <Image
               src='https://picsum.photos/24/24'
@@ -67,9 +67,9 @@ const SideMenu: FC = () => {
           </Link>
         </div>
       </div>
-      <div className='mt-auto flex'>
+      <div className='ml-auto flex sm:mt-auto'>
         <div
-          className='my-2 py-3'
+          className='mx-2 px-3 sm:mx-0 sm:my-2 sm:px-0 sm:py-3'
           onClick={(event) => {
             setIsOpen(true)
             setAnchorEl(event.currentTarget)
