@@ -1,40 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Instagram clone
+
+This is Instagram clone project using Next.js, React, Material-UI, Tailwind CSS and React-icons. Come with responsive design and following features:
+
+- login page (without any authentication/guest login)
+- home page
+- reponsive menu
+- mocked feed data
+
+### Built With
+
+- [Next][Next-url]
+- [React][React-url]
+- [Material-UI][Material-UI-url]
+- [Tailwind][Tailwind-url]
+- [React-icons][React-icons]
 
 ## Getting Started
 
-First, run the development server:
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is an example of how to list things you need to use the software and how to install them.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- yarn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+  ```sh
+  npm install --global yarn
+  ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repo or extract the zip file
 
-## Learn More
+   ```sh
+   git clone https://github.com/Kadphol/repo_name.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install packages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```sh
+   yarn
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Use this command to run project
 
-## Deploy on Vercel
+   ```sh
+    yarn dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+
+### Login page
+
+- Enter home page without any login/authentication will direct to [login page](http://localhost:3000/login)
+- Can login with any valid email (email format) and valid password (one uppercase, one lowercase, one number and at least 8 characters) or using guest login
+- After login, will redirect to [home page](http://localhost:3000)
+
+### Home page
+
+- Can see feed list
+- Can like/unlike post
+- Can comment post
+- Can see comment list
+- Can logout to go back to [login page](http://localhost:3000/login)
+
+## Roadmap
+
+- [ ] Feature 1
+- [ ] Feature 2
+- [ ] Feature 3
+- [ ] Nested Feature
+
+[Next-url]: https://nextjs.org/
+[React-url]: https://reactjs.org/
+[Material-UI-url]: https://material-ui.com/ 
+[Tailwind-url]: https://tailwindcss.com/
+[React-icons]: https://react-icons.github.io/react-icons/
