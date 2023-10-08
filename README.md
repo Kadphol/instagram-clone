@@ -41,10 +41,10 @@ This is an example of how to list things you need to use the software and how to
    git clone git@github.com:Kadphol/instagram-clone.git
    ```
 
-  ```sh
-  HTTPS
-  git clone https://github.com/Kadphol/instagram-clone.git
-  ```
+   ```sh
+   HTTPS
+   git clone https://github.com/Kadphol/instagram-clone.git
+   ```
 
 2. Install packages
 
