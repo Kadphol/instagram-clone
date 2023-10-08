@@ -1,0 +1,1171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> should render the home page 1`] = `
+<DocumentFragment>
+  <div
+    class="m-auto flex w-[calc(100%-72px)] flex-col justify-center pb-16 sm:ml-auto lg:justify-center"
+  >
+    <div
+      class="mx-auto max-w-[470px]"
+    >
+      <div
+        class="my-4 flex w-full flex-col items-center overflow-hidden rounded-lg border-gray-light sm:border"
+      >
+        <div
+          class="ml-4 flex w-full items-center justify-start gap-2 py-4"
+        >
+          <img
+            alt="user image"
+            class="rounded-full"
+            data-nimg="1"
+            decoding="async"
+            height="32"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F41%2F32%2F32&w=64&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F41%2F32%2F32&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F41%2F32%2F32&w=64&q=75 2x"
+            style="color: transparent;"
+            width="32"
+          />
+          <span>
+            Mcintyre
+          </span>
+        </div>
+        <img
+          alt="post image"
+          class="h-auto w-full"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F200%2F300&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="flex w-full items-center gap-2 p-4"
+        >
+          <button
+            data-testid="like-button"
+          >
+            <svg
+              data-testid="like"
+              fill="currentColor"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              fill="none"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="flex w-full flex-col gap-2 px-4 pb-4"
+        >
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              Liked by 
+              <span
+                class="font-bold"
+              >
+                commodo 
+              </span>
+              <span>
+                and
+                <span
+                  class="font-bold"
+                >
+                   7 others
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              <span
+                class="font-bold"
+              >
+                Mcintyre 
+              </span>
+              Consequat consequat ut ut exercitation proident fugiat labore consequat labore. Tempor velit aliqua enim non velit.
+            </span>
+          </div>
+          <div
+            class="flex w-full flex-col justify-items-start gap-1 text-sm"
+          >
+            <span
+              class="flex flex-col"
+            >
+              <span>
+                <span
+                  class="font-bold"
+                >
+                  Jeannie 
+                </span>
+                Cupidatat esse aliqua consectetur nisi mollit.
+              </span>
+              <span
+                class="text-gray"
+              >
+                4 years ago
+              </span>
+            </span>
+            <span
+              class="cursor-pointer text-gray"
+            >
+              View all 3 comments
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span
+              class="text-gray"
+            >
+              December 6, 2018
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex w-full justify-between border-t border-gray-light p-4 text-sm "
+        >
+          <input
+            class="w-full bg-white-light focus:outline-none"
+            placeholder="Add a comment..."
+            type="text"
+            value=""
+          />
+          <button
+            class="text-blue"
+          >
+            Send
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-4 flex w-full flex-col items-center overflow-hidden rounded-lg border-gray-light sm:border"
+      >
+        <div
+          class="ml-4 flex w-full items-center justify-start gap-2 py-4"
+        >
+          <img
+            alt="user image"
+            class="rounded-full"
+            data-nimg="1"
+            decoding="async"
+            height="32"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F32%2F32&w=64&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F32%2F32&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F32%2F32&w=64&q=75 2x"
+            style="color: transparent;"
+            width="32"
+          />
+          <span>
+            Robert
+          </span>
+        </div>
+        <img
+          alt="post image"
+          class="h-auto w-full"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F15%2F200%2F300&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="flex w-full items-center gap-2 p-4"
+        >
+          <button
+            data-testid="like-button"
+          >
+            <svg
+              data-testid="like"
+              fill="currentColor"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              fill="none"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="flex w-full flex-col gap-2 px-4 pb-4"
+        >
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              Liked by 
+              <span
+                class="font-bold"
+              >
+                non 
+              </span>
+              <span>
+                and
+                <span
+                  class="font-bold"
+                >
+                   5 others
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              <span
+                class="font-bold"
+              >
+                Robert 
+              </span>
+              Enim irure nisi mollit aliqua velit irure sint cillum officia minim fugiat irure aliquip minim. Tempor voluptate in exercitation deserunt velit.
+            </span>
+          </div>
+          <div
+            class="flex w-full flex-col justify-items-start gap-1 text-sm"
+          >
+            <span
+              class="flex flex-col"
+            >
+              <span>
+                <span
+                  class="font-bold"
+                >
+                  Rowe 
+                </span>
+                Ex sit pariatur enim anim Lorem dolor.
+              </span>
+              <span
+                class="text-gray"
+              >
+                6 years ago
+              </span>
+            </span>
+            <span
+              class="cursor-pointer text-gray"
+            >
+              View all 3 comments
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span
+              class="text-gray"
+            >
+              May 4, 2014
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex w-full justify-between border-t border-gray-light p-4 text-sm "
+        >
+          <input
+            class="w-full bg-white-light focus:outline-none"
+            placeholder="Add a comment..."
+            type="text"
+            value=""
+          />
+          <button
+            class="text-blue"
+          >
+            Send
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-4 flex w-full flex-col items-center overflow-hidden rounded-lg border-gray-light sm:border"
+      >
+        <div
+          class="ml-4 flex w-full items-center justify-start gap-2 py-4"
+        >
+          <img
+            alt="user image"
+            class="rounded-full"
+            data-nimg="1"
+            decoding="async"
+            height="32"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F32%2F32%2F32&w=64&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F32%2F32%2F32&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F32%2F32%2F32&w=64&q=75 2x"
+            style="color: transparent;"
+            width="32"
+          />
+          <span>
+            Acevedo
+          </span>
+        </div>
+        <img
+          alt="post image"
+          class="h-auto w-full"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F210&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="flex w-full items-center gap-2 p-4"
+        >
+          <button
+            data-testid="like-button"
+          >
+            <svg
+              data-testid="like"
+              fill="currentColor"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              fill="none"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="flex w-full flex-col gap-2 px-4 pb-4"
+        >
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              Liked by 
+              <span
+                class="font-bold"
+              >
+                reprehenderit 
+              </span>
+              <span>
+                and
+                <span
+                  class="font-bold"
+                >
+                   3 others
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              <span
+                class="font-bold"
+              >
+                Acevedo 
+              </span>
+              Esse tempor labore ipsum duis aliquip veniam consectetur velit excepteur et. Et veniam aliquip Lorem do ea magna aliqua dolor excepteur sunt do eu eu.
+            </span>
+          </div>
+          <div
+            class="flex w-full flex-col justify-items-start gap-1 text-sm"
+          >
+            <span
+              class="flex flex-col"
+            >
+              <span>
+                <span
+                  class="font-bold"
+                >
+                  Ladonna 
+                </span>
+                Esse quis nostrud qui ad aute et et ipsum.
+              </span>
+              <span
+                class="text-gray"
+              >
+                9 years ago
+              </span>
+            </span>
+            <span
+              class="cursor-pointer text-gray"
+            >
+              View all 2 comments
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span
+              class="text-gray"
+            >
+              June 24, 2015
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex w-full justify-between border-t border-gray-light p-4 text-sm "
+        >
+          <input
+            class="w-full bg-white-light focus:outline-none"
+            placeholder="Add a comment..."
+            type="text"
+            value=""
+          />
+          <button
+            class="text-blue"
+          >
+            Send
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-4 flex w-full flex-col items-center overflow-hidden rounded-lg border-gray-light sm:border"
+      >
+        <div
+          class="ml-4 flex w-full items-center justify-start gap-2 py-4"
+        >
+          <img
+            alt="user image"
+            class="rounded-full"
+            data-nimg="1"
+            decoding="async"
+            height="32"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F115%2F32%2F32&w=64&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F115%2F32%2F32&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F115%2F32%2F32&w=64&q=75 2x"
+            style="color: transparent;"
+            width="32"
+          />
+          <span>
+            Eleanor
+          </span>
+        </div>
+        <img
+          alt="post image"
+          class="h-auto w-full"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F14%2F200%2F300&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="flex w-full items-center gap-2 p-4"
+        >
+          <button
+            data-testid="like-button"
+          >
+            <svg
+              data-testid="like"
+              fill="currentColor"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              fill="none"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="flex w-full flex-col gap-2 px-4 pb-4"
+        >
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              Liked by 
+              <span
+                class="font-bold"
+              >
+                et 
+              </span>
+              <span>
+                and
+                <span
+                  class="font-bold"
+                >
+                   3 others
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              <span
+                class="font-bold"
+              >
+                Eleanor 
+              </span>
+              Sit cupidatat nulla in cillum dolor pariatur ex enim. Et labore laboris qui amet ipsum id excepteur duis do nulla dolore nostrud laborum.
+            </span>
+          </div>
+          <div
+            class="flex w-full flex-col justify-items-start gap-1 text-sm"
+          >
+            <span
+              class="flex flex-col"
+            >
+              <span>
+                <span
+                  class="font-bold"
+                >
+                  Nelson 
+                </span>
+                Do cupidatat cillum do officia mollit tempor consequat.
+              </span>
+              <span
+                class="text-gray"
+              >
+                6 years ago
+              </span>
+            </span>
+            <span
+              class="cursor-pointer text-gray"
+            >
+              View all 3 comments
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span
+              class="text-gray"
+            >
+              August 29, 2021
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex w-full justify-between border-t border-gray-light p-4 text-sm "
+        >
+          <input
+            class="w-full bg-white-light focus:outline-none"
+            placeholder="Add a comment..."
+            type="text"
+            value=""
+          />
+          <button
+            class="text-blue"
+          >
+            Send
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-4 flex w-full flex-col items-center overflow-hidden rounded-lg border-gray-light sm:border"
+      >
+        <div
+          class="ml-4 flex w-full items-center justify-start gap-2 py-4"
+        >
+          <img
+            alt="user image"
+            class="rounded-full"
+            data-nimg="1"
+            decoding="async"
+            height="32"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F27%2F32%2F32&w=64&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F27%2F32%2F32&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F27%2F32%2F32&w=64&q=75 2x"
+            style="color: transparent;"
+            width="32"
+          />
+          <span>
+            Steele
+          </span>
+        </div>
+        <img
+          alt="post image"
+          class="h-auto w-full"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F312&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="flex w-full items-center gap-2 p-4"
+        >
+          <button
+            data-testid="like-button"
+          >
+            <svg
+              data-testid="like"
+              fill="currentColor"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              fill="none"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="flex w-full flex-col gap-2 px-4 pb-4"
+        >
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              Liked by 
+              <span
+                class="font-bold"
+              >
+                sunt 
+              </span>
+              <span>
+                and
+                <span
+                  class="font-bold"
+                >
+                   9 others
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              <span
+                class="font-bold"
+              >
+                Steele 
+              </span>
+              Aute sint ex est velit incididunt dolor. Culpa labore elit proident est ut tempor dolor fugiat eu.
+            </span>
+          </div>
+          <div
+            class="flex w-full flex-col justify-items-start gap-1 text-sm"
+          >
+            <span
+              class="flex flex-col"
+            >
+              <span>
+                <span
+                  class="font-bold"
+                >
+                  Atkinson 
+                </span>
+                Ullamco ad nostrud ut anim enim aute do.
+              </span>
+              <span
+                class="text-gray"
+              >
+                a year ago
+              </span>
+            </span>
+            <span
+              class="cursor-pointer text-gray"
+            >
+              View all 2 comments
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span
+              class="text-gray"
+            >
+              October 18, 2014
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex w-full justify-between border-t border-gray-light p-4 text-sm "
+        >
+          <input
+            class="w-full bg-white-light focus:outline-none"
+            placeholder="Add a comment..."
+            type="text"
+            value=""
+          />
+          <button
+            class="text-blue"
+          >
+            Send
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-4 flex w-full flex-col items-center overflow-hidden rounded-lg border-gray-light sm:border"
+      >
+        <div
+          class="ml-4 flex w-full items-center justify-start gap-2 py-4"
+        >
+          <img
+            alt="user image"
+            class="rounded-full"
+            data-nimg="1"
+            decoding="async"
+            height="32"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F32%2F32&w=64&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F32%2F32&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F237%2F32%2F32&w=64&q=75 2x"
+            style="color: transparent;"
+            width="32"
+          />
+          <span>
+            Cline
+          </span>
+        </div>
+        <img
+          alt="post image"
+          class="h-auto w-full"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F470&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="flex w-full items-center gap-2 p-4"
+        >
+          <button
+            data-testid="like-button"
+          >
+            <svg
+              data-testid="like"
+              fill="currentColor"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              fill="none"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="flex w-full flex-col gap-2 px-4 pb-4"
+        >
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              Liked by 
+              <span
+                class="font-bold"
+              >
+                elit 
+              </span>
+              <span>
+                and
+                <span
+                  class="font-bold"
+                >
+                   8 others
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              <span
+                class="font-bold"
+              >
+                Cline 
+              </span>
+              Dolore ea excepteur eiusmod id nisi anim quis eiusmod occaecat dolor ea deserunt labore veniam. Mollit voluptate nostrud minim mollit sit excepteur.
+            </span>
+          </div>
+          <div
+            class="flex w-full flex-col justify-items-start gap-1 text-sm"
+          >
+            <span
+              class="flex flex-col"
+            >
+              <span>
+                <span
+                  class="font-bold"
+                >
+                  Lydia 
+                </span>
+                Ullamco fugiat ad id pariatur esse mollit adipisicing.
+              </span>
+              <span
+                class="text-gray"
+              >
+                6 years ago
+              </span>
+            </span>
+            <span
+              class="cursor-pointer text-gray"
+            >
+              View all 3 comments
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span
+              class="text-gray"
+            >
+              February 4, 2021
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex w-full justify-between border-t border-gray-light p-4 text-sm "
+        >
+          <input
+            class="w-full bg-white-light focus:outline-none"
+            placeholder="Add a comment..."
+            type="text"
+            value=""
+          />
+          <button
+            class="text-blue"
+          >
+            Send
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-4 flex w-full flex-col items-center overflow-hidden rounded-lg border-gray-light sm:border"
+      >
+        <div
+          class="ml-4 flex w-full items-center justify-start gap-2 py-4"
+        >
+          <img
+            alt="user image"
+            class="rounded-full"
+            data-nimg="1"
+            decoding="async"
+            height="32"
+            loading="lazy"
+            src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F32&w=64&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F32&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F32&w=64&q=75 2x"
+            style="color: transparent;"
+            width="32"
+          />
+          <span>
+            Ryan
+          </span>
+        </div>
+        <img
+          alt="post image"
+          class="h-auto w-full"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F220&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="flex w-full items-center gap-2 p-4"
+        >
+          <button
+            data-testid="like-button"
+          >
+            <svg
+              data-testid="like"
+              fill="currentColor"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              fill="none"
+              height="1.5rem"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="flex w-full flex-col gap-2 px-4 pb-4"
+        >
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              Liked by 
+              <span
+                class="font-bold"
+              >
+                reprehenderit 
+              </span>
+              <span>
+                and
+                <span
+                  class="font-bold"
+                >
+                   1 others
+                </span>
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span>
+              <span
+                class="font-bold"
+              >
+                Ryan 
+              </span>
+              Irure consequat ipsum magna amet eiusmod deserunt ut laboris ex culpa eu dolor aute cupidatat. Do nulla pariatur deserunt sint voluptate sint non ipsum ullamco non duis incididunt.
+            </span>
+          </div>
+          <div
+            class="flex w-full flex-col justify-items-start gap-1 text-sm"
+          >
+            <span
+              class="flex flex-col"
+            >
+              <span>
+                <span
+                  class="font-bold"
+                >
+                  Cecelia 
+                </span>
+                Labore ex in et veniam dolore sint aliquip elit nostrud sit qui ullamco ut exercitation.
+              </span>
+              <span
+                class="text-gray"
+              >
+                2 years ago
+              </span>
+            </span>
+          </div>
+          <div
+            class="flex w-full justify-items-start text-sm"
+          >
+            <span
+              class="text-gray"
+            >
+              May 14, 2020
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex w-full justify-between border-t border-gray-light p-4 text-sm "
+        >
+          <input
+            class="w-full bg-white-light focus:outline-none"
+            placeholder="Add a comment..."
+            type="text"
+            value=""
+          />
+          <button
+            class="text-blue"
+          >
+            Send
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
